@@ -11,7 +11,7 @@ import com.example.Cardapio.FoodRepository;
 import com.example.Cardapio.entity.Food;
 
 @RestController
-@RequestMapping("food")
+@RequestMapping("/food")
 public class FoodController {
 
     @Autowired
