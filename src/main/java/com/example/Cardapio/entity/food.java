@@ -16,10 +16,10 @@ public class Food {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+   private Long id;
     private String title;
     private String imageUrl;
-    private Integer price;
+    private Integer price;*/ 
 
 
 
