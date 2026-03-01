@@ -1,5 +1,9 @@
 package com.example.Cardapio;
 
-public class FoodResponseDTO {
-    
-}
+public record FoodResponseDTO(
+    Long id,
+    String title,
+    String imageUrl,
+    Integer price
+) {
+} 
