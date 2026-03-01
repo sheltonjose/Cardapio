@@ -21,7 +21,7 @@ public class FoodController {
     @GetMapping
     public List<FoodResponseDTO> getAll(){
 
-    List<Food> foodlist= foodRepository.findAll();
+    List<FoodResponseDTO> foodlist= foodRepository.findAll().stream().map(FoodResponseDTO::new).toList();
     return foodlist;
         
 
