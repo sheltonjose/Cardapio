@@ -6,4 +6,9 @@ public record FoodResponseDTO(
     String imageUrl,
     Integer price
 ) {
+
+
+
+
+    
 } 
