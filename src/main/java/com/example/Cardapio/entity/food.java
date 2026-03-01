@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 
 
 @Table(name = "foods")
-@Entity(name="foods")
+@Entity
 public class Food {
 
 
@@ -20,7 +20,7 @@ public class Food {
     private String title;
     private String imageUrl;
     private Integer price;
-    
+
     public Long getId() {
         return id;
     }
