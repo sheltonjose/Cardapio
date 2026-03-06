@@ -18,6 +18,13 @@ public class FoodController {
 
     @Autowired
     private FoodRepository foodRepository;
+
+
+    @PostMapping
+    public void saveFood(){
+
+
+    }
     
     @GetMapping
     public List<FoodResponseDTO> getAll(){
