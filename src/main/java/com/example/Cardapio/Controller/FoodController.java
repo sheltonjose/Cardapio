@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.Cardapio.FoodRepository;
 import com.example.Cardapio.FoodResponseDTO;
-import com.example.Cardapio.entity.Food;
+//import com.example.Cardapio.entity.Food;
 
 @RestController
 @RequestMapping("/food")
