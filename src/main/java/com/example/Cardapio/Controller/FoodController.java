@@ -25,7 +25,7 @@ public class FoodController {
     private FoodRepository foodRepository;
 
 
-   @CrossOrigin(origins = "*", allowCredentials = "*")
+   @CrossOrigin(origins = "*", allowCredentials = "")
     @PostMapping
     public void saveFood(@RequestBody FoodRequestDTO data){
         Food foodData = new Food(data);
@@ -33,7 +33,7 @@ public class FoodController {
         return;
     }
     
-    @CrossOrigin(origins = "*", allowCredentials = "*")
+    @CrossOrigin(origins = "*", allowCredentials = "")
     @GetMapping
     public List<FoodResponseDTO> getAll(){
 
